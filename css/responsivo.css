@@ -1,0 +1,36 @@
+@media (max-width: 576px) {
+  .bg-banner {
+    margin-top: 15px;
+    height: 575px;
+  }
+
+  .header-menu {
+    position: sticky;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  .logo svg {
+    height: 80px;
+    width: 200px;
+  }
+
+  .navbar-toggler {
+    padding: 0.3rem;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-top: 70px;
+    text-align: center;
+  }
+  .ml-redes {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+}
