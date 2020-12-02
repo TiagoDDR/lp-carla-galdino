@@ -1,9 +1,16 @@
+.header-superior {
+  background: #dbdbdb;
+}
+
+.header-superior p {
+  font-size: 12px;
+}
+
 .bg-banner {
   background-image: url(/img/bg-banner.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  margin-top: 73px;
 }
 
 .logo svg {
@@ -11,12 +18,18 @@
   width: 250px;
 }
 
+.logo svg:hover {
+  fill: #5b5b5b;
+  transition: 0.3s;
+  width: 255px;
+}
+
 .header-menu {
   background: #ffe2e2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   top: 0;
   margin-top: -15px;
-  position: fixed;
+  position: sticky;
   width: 100%;
   z-index: 999;
 }
@@ -84,4 +97,20 @@ h1 span {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.instagram {
+  fill: #fff;
+}
+
+.instagram:hover {
+  fill: #ffe2e2;
+}
+
+.facebook {
+  fill: #fff;
+}
+
+.facebook:hover {
+  fill: #ffe2e2;
 }
